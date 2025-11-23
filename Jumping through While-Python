@@ -1,0 +1,16 @@
+Jumping through While-Python
+
+Given a positive integer x, the task is to print the numbers from 1 to x in the order as power of 1, 2, 3.....(in increasing order).
+Example
+Input: x = 10
+Output: 1 4 9
+
+
+Code:
+def printIncreasingPower(x):
+    #code here
+    # Loop to jump in powers of 2
+    i = 1
+    while i*i <= x:
+        print(i*i,end=" ")
+        i = i+1
